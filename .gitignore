@@ -4,6 +4,10 @@
 # Ignore `local_things`
 local_things*
 
+# Ignore VS Code settings directory and files
+.vscode/
+.vscode/*
+
 # Created by https://www.toptal.com/developers/gitignore/api/django,python,visualstudiocode
 # Edit at https://www.toptal.com/developers/gitignore?templates=django,python,visualstudiocode
 
