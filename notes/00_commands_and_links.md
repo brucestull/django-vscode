@@ -1,5 +1,19 @@
 # Commands and Links
 
+## Application Links
+
+* Application Routes:
+  * <http://localhost:8000/>
+  * <http://localhost:8000/hello/>
+  * <http://localhost:8000/hello/ext/Dezzi/>
+  * <http://localhost:8000/hello/Dezzi/>
+  * <http://localhost:8000/hello/ext/Bunbun/>
+  * <http://localhost:8000/hello/Bunbun/>
+  * <http://localhost:8000/hello/ext/ShalerMoon/>
+  * <http://localhost:8000/hello/ShalerMoon/>
+  * <http://localhost:8000/hello/ext/Shaler:Moon/>
+  * <http://localhost:8000/hello/Shaler:Moon/>
+
 ## Commands
 
 * `pipenv install`
@@ -53,9 +67,6 @@
   * <http://localhost:8000/>
 * Django REST Root:
   * <http://localhost:8000/api/v1/>
-* Application Routes:
-  * <http://localhost:8000/>
-  * <http://localhost:8000/hello/>
 * Django Admin:
   * <http://localhost:8000/admin/>
   * <http://localhost:8000/admin/doc/models/>
