@@ -55,6 +55,7 @@
   * <http://localhost:8000/api/v1/>
 * Application Routes:
   * <http://localhost:8000/>
+  * <http://localhost:8000/hello/>
 * Django Admin:
   * <http://localhost:8000/admin/>
   * <http://localhost:8000/admin/doc/models/>
