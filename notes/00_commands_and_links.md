@@ -7,7 +7,7 @@
 * `pipenv install django==4.1.3`
 * `pipenv install docutils`
 * `pipenv install docutils==0.19`
-  * `'django.contrib.admindocs'.`
+  * `'django.contrib.admindocs',`
   * `path('admin/doc/', include('django.contrib.admindocs.urls')),`
 * `America/New_York`
 * `pipenv install djangorestframework`

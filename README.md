@@ -7,6 +7,7 @@
 * [The Tutorial](https://code.visualstudio.com/docs/python/tutorial-django)
 * [My repository](https://github.com/brucestull/django-vscode)
 * [Sample code](https://github.com/microsoft/python-sample-vscode-django-tutorial)
+* [Django Admin Documentation Generator](https://docs.djangoproject.com/en/4.1/ref/contrib/admin/admindocs/)
 
 ## Lessons Learned, New Concepts, and Review
 
