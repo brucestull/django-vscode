@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VS Code and Django</title>
+</head>
+
+<body>
+    <nav>
+        <a href="{% url 'home' %}">Home</a>
+        <br>
+        <a href="{% url 'greet' 'Dezzi' %}">Hello, Dezzi</a>
+        <br>
+        <a href="{% url 'greet' 'Bunbun' %}">Hello, Bunbun</a>
+    </nav>
+    <body>
+        <strong>
+            Hello there, {{ name }}!
+        </strong>
+        It's
+        {{ date | date:"l, d F, Y" }}
+        at
+        {{ date | time:"H:i:s" }}
+    </body>
+
+</body>
+
+</html>

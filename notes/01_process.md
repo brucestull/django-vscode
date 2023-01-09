@@ -107,3 +107,6 @@
     * <http://localhost:8000/hello/ShalerMoon/>
     * <http://localhost:8000/hello/Shaler:Moon/>
     * <http://localhost:8000/hello/Bunbun/>
+
+1. Temporary URL:
+    * <http://localhost:8000/temp/>

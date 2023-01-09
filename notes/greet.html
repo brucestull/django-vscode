@@ -12,9 +12,9 @@
     <nav>
         <a href="{% url 'home' %}">Home</a>
         <br>
-        <a href={% url 'hello-name:Dezzi' %}>Hello, Dezzi</a>
+        <a href="{% url 'greet' 'Dezzi' %}">Hello, Dezzi</a>
         <br>
-        <a href={% url 'hello-name:Bunbun' %}>Hello, Bunbun</a>
+        <a href="{% url 'greet' 'Bunbun' %}">Hello, Bunbun</a>
     </nav>
     <body>
         <strong>
