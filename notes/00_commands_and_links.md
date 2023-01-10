@@ -5,6 +5,9 @@
 * Application Routes:
   * <http://localhost:8000/>
   * <http://localhost:8000/hello/>
+  * <http://localhost:8000/hello/about/>
+  * <http://localhost:8000/hello/contact/>
+  * <http://localhost:8000/hello/>
   * <http://localhost:8000/hello/:a%20value%20that%20could%20be%20HTML:/>
     * `Hello there, :a value that could be HTML:! It's Monday, 09 January, 2023 at 13:50:27`
   * <http://localhost:8000/hello/ext/Dezzi/>

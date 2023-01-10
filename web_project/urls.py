@@ -19,7 +19,7 @@ from django.views.generic.base import RedirectView
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 
 urlpatterns = [
-    path('', RedirectView.as_view(pattern_name='hello:home')),
+    path('', RedirectView.as_view(pattern_name='home')),
 
     path('admin/doc/', include('django.contrib.admindocs.urls')),
     path('admin/', admin.site.urls),
