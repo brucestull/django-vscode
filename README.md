@@ -28,7 +28,52 @@
   * Matches a regular expression to a string:
 
     ![re.match()](./images/match.png)
-* [Create a code snippet](https://code.visualstudio.com/docs/python/tutorial-django#_create-a-code-snippet)
+* [Create a code snippet](https://code.visualstudio.com/docs/python/tutorial-django#_create-a-code-snippet):
+  * Created in:
+    * `C:\Users\FlynntKnapp\AppData\Roaming\Code\User\snippets\html.json`
+  * Snippets can be created in the workspace directory if desired.
+
+    ```json
+    {
+      "Django Tutorial: template extending layout.html": {
+        "prefix": "djextlayout",
+        "body": [
+          "{% extends \"hello/layout.html\" %}",
+          "",
+          "{% block title %}",
+          "$0",
+          "{% endblock title %}",
+          "",
+          "{% block content %}",
+          "{% endblock content %}"
+        ],
+        "description": "Boilerplate template that extends layout.html"
+      },
+    }
+    ```
+
+  * The snippet template comment:
+
+    ```json
+    {
+      // Place your django-vscode workspace snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+      // description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+      // is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+      // used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+      // $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+      // Placeholders with the same ids are connected.
+      // Example:
+      // "Print to console": {
+      // 	"scope": "javascript,typescript",
+      // 	"prefix": "log",
+      // 	"body": [
+      // 		"console.log('$1');",
+      // 		"$2"
+      // 	],
+      // 	"description": "Log output to console"
+      // }
+    }
+    ```
 
 ### Review
 
