@@ -33,7 +33,7 @@
     * `C:\Users\FlynntKnapp\AppData\Roaming\Code\User\snippets\html.json`
   * Snippets can be created in the workspace directory if desired.
 
-    ```json
+    ```console
     {
       "Django Tutorial: template extending layout.html": {
         "prefix": "djextlayout",
