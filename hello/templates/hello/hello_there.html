@@ -11,6 +11,16 @@
 </head>
 
 <body>
+    <nav>
+        <a href="{% url 'home' %}">Home</a>
+        <br>
+        <a href="{% url 'hello_there_extended' 'Dezzi' %}">{% url 'hello_there_extended' 'Dezzi' %}</a>
+        <br>
+        <a href="{% url 'hello_there' 'Dezzi' %}">{% url 'hello_there' 'Dezzi' %}</a>
+        <br>
+        <a href="{% url 'hello_there' 'Bunbun' %}">{% url 'hello_there' 'Bunbun' %}</a>
+    </nav>
+
     <span class="message">Greetings, {{ name }}!</span>
     It's
     {{ date | date:"l, d F, Y" }}
