@@ -35,10 +35,10 @@
 
     ```console
     {
-      "Django Tutorial: template extending layout.html": {
+      "Django Tutorial: template extending base.html": {
         "prefix": "djextlayout",
         "body": [
-          "{% extends \"hello/layout.html\" %}",
+          "{% extends \"hello/base.html\" %}",
           "",
           "{% block title %}",
           "$0",
@@ -47,7 +47,7 @@
           "{% block content %}",
           "{% endblock content %}"
         ],
-        "description": "Boilerplate template that extends layout.html"
+        "description": "Boilerplate template that extends base.html"
       },
     }
     ```
